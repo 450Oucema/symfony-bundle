@@ -18,7 +18,7 @@
         "symfony/finder": "^3.4 || ^4.3 || ^5.0",
         "symfony/intl": "^3.4 || ^4.3 || ^5.0",
         "php-translation/symfony-storage": "dev-support-php8",
-        "php-translation/extractor": "^2.0",
+        "php-translation/extractor": "dev-support-php8",
         "nyholm/nsa": "^1.1",
         "twig/twig": "^2.11 || ^3.0"
     },
@@ -66,6 +66,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/450oucema/symfony-storage"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/450oucema/extractor"
         }
     ]
 }
